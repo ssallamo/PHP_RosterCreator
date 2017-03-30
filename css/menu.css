@@ -1,0 +1,71 @@
+BODY {
+	FONT-FAMILY:Comic Sans MS;
+    FONT-SIZE: small;
+    overflow-x: hidden;
+}
+
+div.container-fluid {
+  padding-left:0px;
+  padding-right:0px;
+}
+
+div .col-xs-12, .col-sm-12, .col-md-12{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+div .col-xs-1, .col-sm-1, .col-md-1{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.col-xs-12, .col-sm-12, .col-md-12 table{
+	background:#dad5cf;
+	height:30px;
+	width:100%;
+}
+
+.col-md-12 td.logout{
+	align:right;
+	width:110px;
+}
+
+.col-md-12 td a{
+	PADDING-TOP:1px;
+}
+
+.col-md-6{
+    BACKGROUND:#2d2929; 
+}
+#header{
+	left-padding:5px;
+    FONT-SIZE: 140%; 
+    BACKGROUND:#2d2929; 
+    LINE-HEIGHT: normal;
+}
+
+#header UL {
+    BACKGROUND:#2d2929;
+    PADDING-TOP: 12px; 
+    PADDING-RIGHT: 0px; 
+    PADDING-BOTTOM: 0px; 
+    LIST-STYLE-TYPE: none;
+  	min-width:340px;
+}
+
+#header A {
+   PADDING: 5px; 
+   COLOR: #765; 
+}
+
+.current {
+		COLOR: #333 !important;
+}
+.current A {
+        background-color: #eeeeee !important;
+		COLOR: #333 !important;
+}
+
+iframe::-webkit-scrollbar {
+     display: none; 
+}

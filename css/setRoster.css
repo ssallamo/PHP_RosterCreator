@@ -1,0 +1,50 @@
+body {
+    PADDING-RIGHT: 0px; 
+	border:1px solid black;
+	margin:8px;
+	font-family:Comic Sans MS;
+	background:url(../img/background3.png);
+	background-size:cover;
+}
+
+hr.div_line{
+	border: 0;
+    height: 3px;
+    background: #2d2929;
+    background-image: linear-gradient(to right, #ccc, #2d2929, #ccc);
+}
+
+table.table-hover{
+	background:rgb(253,253,253);
+	text-align:center;		
+}    
+
+table.table-hover th{
+	text-align:center;
+	font-size:1.2em;	
+}    
+
+input.form-control{
+	width:200px;
+}
+
+table.table-bordered{
+	background:#f3f2ec;
+}
+
+table.table-bordered th{
+	text-align:center;
+	font-size:1.0em;
+}
+
+select.input-sm{
+    	width:24px;
+    	display:inline;
+    	padding:2px 2px;
+    	-webkit-appearance:none;
+}
+
+table table-bordered tbody tr td{
+	padding:2px;
+}
+

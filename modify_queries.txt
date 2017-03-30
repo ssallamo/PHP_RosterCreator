@@ -1,0 +1,36 @@
+
+use rostertest;
+
+ALTER TABLE tblEmp ADD Expired varchar(8) default '20991231' not null;
+ALTER TABLE tblEmp ADD StartDt varchar(8) default '20160601' not null;
+
+
+drop table tblNewFreeboard;
+
+create table tblNewFreeboard(
+Seq int not null AUTO_INCREMENT,
+Category varchar(4) not null,
+Title varchar(255),
+Writer varchar(30),
+Content text,
+WritedDt DATETIME ,
+ModifiedDt DATETIME ,
+Views   int,
+CommentCnt int,
+DeleteFg varchar(1),
+PRIMARY KEY (Seq)
+);
+
+
+drop table tblComment;
+
+Create table tblComment(
+CmtSeq int not null AUTO_INCREMENT,
+Seq int Not null,
+Writer varchar(30),
+WriterPw varchar(30),
+Comment text,
+CmtDt DATETIME,
+DeleteFg varchar(1),
+PRIMARY KEY (CmtSeq)
+);

@@ -1,0 +1,34 @@
+
+body {
+    PADDING-RIGHT: 0px; 
+	border:1px solid black;
+	margin:8px;
+	FONT-FAMILY:Comic Sans MS;
+	background:url(../img/background3.png);
+	background-size:cover;
+}
+
+#basic_info{
+	border:0px solid red;
+    PADDING-RIGHT: 10px; 
+    PADDING-LEFT: 15px; 
+    PADDING-BOTTOM: 10px; 
+    PADDING-TOP: 10px; 
+}
+
+.td_label{
+	width:70px;
+	font-family:Segoe UI,Georgia,Serif; 
+	font-size:1.5em;
+}
+
+hr.div_line{
+	border: 0;
+    height: 3px;
+    background: #2d2929;
+    background-image: linear-gradient(to right, #ccc, #2d2929, #ccc);
+} 
+
+.table tbody tr td{
+	vertical-align:center;
+}

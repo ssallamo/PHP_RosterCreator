@@ -1,0 +1,121 @@
+/*common*/
+body {
+    PADDING-RIGHT: 0px;
+	font-family:Comic Sans MS;
+	margin:8px;
+	border:1px solid black;
+	background:url(../img/bgimage.jpg);
+	background-size:cover;
+}
+
+#main {
+	padding:25px;
+}
+
+/*list form*/
+#listTitle {
+	display:block;
+	font-size:23px;
+	padding-left:10px;
+	font-weight:bold;
+}
+
+.tbl_bL {
+	border-left: 1px solid #ddd;
+}
+.tbl_bT {
+	border-top: 1px solid #ddd;
+}
+.tbl_bB {
+	border-bottom: 1px solid #ddd;
+}
+.tbl_bR {
+	border-right:1px solid #ddd;
+}
+
+
+/*input, edit form*/
+#freeBoardTitle {
+	display:block;
+	font-size:25px;
+	padding-left:10px;
+	font-weight:bold;
+	text-align:center;
+	padding-bottom:30px;
+}
+
+#tblPostDetail{
+	width:800px;
+	padding-top:20px;
+	border-collapse: collapse;
+}
+
+.tdForm {
+	padding:6px;
+	font-size:20px;
+}
+
+.tbl_bottom {
+	border-bottom:1px solid #A6A6A6;
+}
+
+.inputFrm {
+	padding:5px 10px;
+	font-size:15px;
+	color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+	font-family:Comic Sans MS;
+}
+
+.btnFrm{
+	padding:5px 10px;
+	width:150px;
+	font-size:15px;
+	color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+	font-family:Comic Sans MS;
+}
+
+textarea {
+	resize:none;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+input[type="checkbox"]+label {    
+    background: url('../img/unchecked.png') no-repeat;
+    padding-left: 20px;
+}
+input[type="checkbox"]:checked + label {
+    background: url('../img/checked.png')  no-repeat;
+}
+
+
+
+
+hr.div_line{
+	border: 0;
+    height: 3px;
+    background: #2d2929;
+    background-image: linear-gradient(to right, #ccc, #2d2929, #ccc);
+}
+
+div .col-xs-6{
+	padding:5px;
+	min-width:450px;
+}
+
+h4{
+	margin-top:5px;
+	margin-bottom:5px;
+}
+div .form-group{
+    margin-bottom:5px;
+}
